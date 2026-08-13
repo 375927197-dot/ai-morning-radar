@@ -1,0 +1,595 @@
+{
+  "report_date": "2026-08-13",
+  "generated_at": "2026-08-13T22:53:31+08:00",
+  "title": "AI早盘雷达｜2026-08-13",
+  "sentiment_score": 4.11,
+  "sentiment_label": "明显偏多",
+  "score_components": [
+    {
+      "key": "sox",
+      "value": 2.35,
+      "normalized": 1.0,
+      "weight": 0.2,
+      "evidence_ids": [
+        "MKT-^SOX"
+      ]
+    },
+    {
+      "key": "nasdaq",
+      "value": 1.12,
+      "normalized": 1.0,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-^IXIC"
+      ]
+    },
+    {
+      "key": "sp500",
+      "value": 0.62,
+      "normalized": 0.62,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-^GSPC"
+      ]
+    },
+    {
+      "key": "ai_basket",
+      "value": 2.26,
+      "normalized": 0.7533333333333333,
+      "weight": 0.2,
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AMD",
+        "MKT-MU",
+        "MKT-AVGO",
+        "MKT-SMCI"
+      ]
+    },
+    {
+      "key": "hynix",
+      "value": 3.16,
+      "normalized": 1.0,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-000660.KS"
+      ]
+    },
+    {
+      "key": "samsung",
+      "value": 1.9,
+      "normalized": 0.95,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-005930.KS"
+      ]
+    },
+    {
+      "key": "kospi",
+      "value": 0.78,
+      "normalized": 0.78,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-^KS11"
+      ]
+    },
+    {
+      "key": "vix",
+      "value": -5.1,
+      "normalized": 0.6375,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-^VIX"
+      ]
+    },
+    {
+      "key": "us10y",
+      "value": -2.0,
+      "normalized": 0.25,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-^TNX"
+      ]
+    },
+    {
+      "key": "dxy",
+      "value": -0.3,
+      "normalized": 0.6,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-DX-Y.NYB"
+      ]
+    }
+  ],
+  "market": [
+    {
+      "symbol": "^IXIC",
+      "name": "纳斯达克综合",
+      "category": "indices",
+      "price": 21450.2,
+      "change_pct": 1.12,
+      "previous_close": 21212.6,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        21000,
+        21100,
+        21212.6,
+        21450.2
+      ],
+      "evidence_id": "MKT-^IXIC"
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "标普500",
+      "category": "indices",
+      "price": 6512.1,
+      "change_pct": 0.62,
+      "previous_close": 6472.0,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        6420,
+        6472,
+        6512.1
+      ],
+      "evidence_id": "MKT-^GSPC"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "道琼斯",
+      "category": "indices",
+      "price": 45110.0,
+      "change_pct": 0.18,
+      "previous_close": 45029.0,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        44800,
+        45029,
+        45110
+      ],
+      "evidence_id": "MKT-^DJI"
+    },
+    {
+      "symbol": "^SOX",
+      "name": "费城半导体",
+      "category": "indices",
+      "price": 6280.0,
+      "change_pct": 2.35,
+      "previous_close": 6135.8,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        6000,
+        6135.8,
+        6280
+      ],
+      "evidence_id": "MKT-^SOX"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "category": "us_ai",
+      "price": 202.2,
+      "change_pct": 3.8,
+      "previous_close": 194.8,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        190,
+        194.8,
+        202.2
+      ],
+      "evidence_id": "MKT-NVDA"
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "category": "us_ai",
+      "price": 192.1,
+      "change_pct": 2.4,
+      "previous_close": 187.6,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        183,
+        187.6,
+        192.1
+      ],
+      "evidence_id": "MKT-AMD"
+    },
+    {
+      "symbol": "MU",
+      "name": "美光",
+      "category": "us_ai",
+      "price": 151.3,
+      "change_pct": 4.6,
+      "previous_close": 144.65,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        141,
+        144.65,
+        151.3
+      ],
+      "evidence_id": "MKT-MU"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "博通",
+      "category": "us_ai",
+      "price": 321.0,
+      "change_pct": 1.7,
+      "previous_close": 315.63,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        310,
+        315.63,
+        321
+      ],
+      "evidence_id": "MKT-AVGO"
+    },
+    {
+      "symbol": "SMCI",
+      "name": "超微电脑",
+      "category": "us_ai",
+      "price": 58.2,
+      "change_pct": -1.2,
+      "previous_close": 58.91,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        60,
+        58.91,
+        58.2
+      ],
+      "evidence_id": "MKT-SMCI"
+    },
+    {
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "category": "korea",
+      "price": 3512.4,
+      "change_pct": 0.78,
+      "previous_close": 3485.2,
+      "as_of": "2026-08-13T00:50:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "韩国早盘5分钟",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        3485.2,
+        3498,
+        3505,
+        3512.4
+      ],
+      "evidence_id": "MKT-^KS11"
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "三星电子",
+      "category": "korea",
+      "price": 91200,
+      "change_pct": 1.9,
+      "previous_close": 89500,
+      "as_of": "2026-08-13T00:50:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "韩国早盘5分钟",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        89500,
+        90000,
+        90800,
+        91200
+      ],
+      "evidence_id": "MKT-005930.KS"
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK海力士",
+      "category": "korea",
+      "price": 342500,
+      "change_pct": 3.16,
+      "previous_close": 332000,
+      "as_of": "2026-08-13T00:50:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "韩国早盘5分钟",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        332000,
+        337000,
+        340000,
+        342500
+      ],
+      "evidence_id": "MKT-000660.KS"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "VIX",
+      "category": "macro",
+      "price": 14.2,
+      "change_pct": -5.1,
+      "previous_close": 14.96,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        15.8,
+        14.96,
+        14.2
+      ],
+      "evidence_id": "MKT-^VIX"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "美元指数",
+      "category": "macro",
+      "price": 98.2,
+      "change_pct": -0.3,
+      "previous_close": 98.5,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        98.8,
+        98.5,
+        98.2
+      ],
+      "evidence_id": "MKT-DX-Y.NYB"
+    },
+    {
+      "symbol": "^TNX",
+      "name": "美国10年期国债收益率",
+      "category": "macro",
+      "price": 41.2,
+      "change_pct": -0.48,
+      "previous_close": 41.4,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": -2.0,
+      "sparkline": [
+        41.5,
+        41.4,
+        41.2
+      ],
+      "evidence_id": "MKT-^TNX"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "黄金",
+      "category": "macro",
+      "price": 3520.0,
+      "change_pct": 0.4,
+      "previous_close": 3506.0,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        3490,
+        3506,
+        3520
+      ],
+      "evidence_id": "MKT-GC=F"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "WTI原油",
+      "category": "macro",
+      "price": 71.2,
+      "change_pct": -0.7,
+      "previous_close": 71.7,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        72.1,
+        71.7,
+        71.2
+      ],
+      "evidence_id": "MKT-CL=F"
+    },
+    {
+      "symbol": "HG=F",
+      "name": "铜",
+      "category": "macro",
+      "price": 5.12,
+      "change_pct": 1.1,
+      "previous_close": 5.064,
+      "as_of": "2026-08-12T20:00:00+00:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近交易时段",
+      "status": "ok",
+      "stale_minutes": null,
+      "change_bps": null,
+      "sparkline": [
+        5.02,
+        5.064,
+        5.12
+      ],
+      "evidence_id": "MKT-HG=F"
+    }
+  ],
+  "news": [
+    {
+      "title": "Major cloud providers expand AI infrastructure spending",
+      "source": "Fixture News",
+      "published_at": "2026-08-13T00:10:00+00:00",
+      "url": "https://example.com/ai-capex",
+      "summary": "Cloud capex plans remain focused on accelerators and networking.",
+      "evidence_id": "NEWS-001"
+    },
+    {
+      "title": "Memory makers signal firm HBM demand",
+      "source": "Fixture News",
+      "published_at": "2026-08-12T23:40:00+00:00",
+      "url": "https://example.com/hbm",
+      "summary": "HBM demand is described as firm.",
+      "evidence_id": "NEWS-002"
+    }
+  ],
+  "macro_events": [
+    {
+      "title": "美国CPI数据发布",
+      "event_at": "2026-08-13T12:30:00+00:00",
+      "source": "U.S. BLS",
+      "url": "https://www.bls.gov/schedule/",
+      "importance": "高",
+      "evidence_id": "CAL-BLS-01"
+    }
+  ],
+  "sector_impacts": [
+    {
+      "sector": "存储/HBM",
+      "direction": "利好",
+      "strength": 4,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：美光、SK海力士、三星电子综合变动约+3.22%",
+      "evidence_ids": [
+        "MKT-MU",
+        "MKT-000660.KS",
+        "MKT-005930.KS"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "半导体设备材料",
+      "direction": "利好",
+      "strength": 3,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：费城半导体综合变动约+2.35%",
+      "evidence_ids": [
+        "MKT-^SOX"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "服务器与算力",
+      "direction": "利好",
+      "strength": 3,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、AMD、超微电脑综合变动约+1.67%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AMD",
+        "MKT-SMCI"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "CPO/光模块",
+      "direction": "利好",
+      "strength": 4,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、博通综合变动约+2.75%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AVGO"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "PCB/铜连接",
+      "direction": "利好",
+      "strength": 3,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、博通、铜综合变动约+2.20%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AVGO",
+        "MKT-HG=F"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "液冷",
+      "direction": "利好",
+      "strength": 2,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、超微电脑综合变动约+1.30%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-SMCI"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "机器人",
+      "direction": "利好",
+      "strength": 5,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达综合变动约+3.80%",
+      "evidence_ids": [
+        "MKT-NVDA"
+      ],
+      "kind": "推断"
+    }
+  ],
+  "auction_points": [
+    "09:15先观察存储、算力和光模块方向竞价强弱是否与外盘信号一致。",
+    "若高开但量能与板块联动不足，谨防外盘信息已被提前交易。",
+    "关注美元、美债收益率和VIX是否共同指向风险偏好变化。"
+  ],
+  "one_line_summary": "外盘AI科技情绪明显偏多（+4.11/5），重点异动：美光+4.60%、英伟达+3.80%、SK海力士+3.16%。",
+  "analysis_mode": "规则模板",
+  "warnings": [
+    "核心行情成功率18/30，低于80%；所有缺失项已标记"
+  ],
+  "disclaimer": "仅用于盘前信息整理和风险观察，不构成投资建议。免费行情可能延迟或缺失。"
+}

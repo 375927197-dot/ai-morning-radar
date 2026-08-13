@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-morning-radar"
+version = "0.1.0"
+description = "A股 AI 科技开盘前晨报"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "exchange-calendars>=4.5,<5",
+  "yfinance>=0.2.54,<2",
+]
+
+[project.scripts]
+ai-morning-radar = "ai_morning_radar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

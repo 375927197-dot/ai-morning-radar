@@ -1,0 +1,74 @@
+{
+  "timezone": "Asia/Shanghai",
+  "report": {
+    "scheduled_start": "08:32",
+    "korea_capture": "08:50",
+    "late_start": "09:05",
+    "ai_deadline": "09:10",
+    "news_hours": 36,
+    "output_dir": "reports"
+  },
+  "groups": {
+    "indices": [
+      {"symbol": "^IXIC", "name": "纳斯达克综合", "threshold": 1.0},
+      {"symbol": "^GSPC", "name": "标普500", "threshold": 1.0},
+      {"symbol": "^DJI", "name": "道琼斯", "threshold": 1.0},
+      {"symbol": "^SOX", "name": "费城半导体", "threshold": 1.5}
+    ],
+    "us_ai": [
+      {"symbol": "NVDA", "name": "英伟达", "threshold": 3.0},
+      {"symbol": "AMD", "name": "AMD", "threshold": 3.0},
+      {"symbol": "INTC", "name": "英特尔", "threshold": 3.0},
+      {"symbol": "MU", "name": "美光", "threshold": 3.0},
+      {"symbol": "AAPL", "name": "苹果", "threshold": 3.0},
+      {"symbol": "GOOGL", "name": "谷歌", "threshold": 3.0},
+      {"symbol": "MSFT", "name": "微软", "threshold": 3.0},
+      {"symbol": "META", "name": "Meta", "threshold": 3.0},
+      {"symbol": "AMZN", "name": "亚马逊", "threshold": 3.0},
+      {"symbol": "ORCL", "name": "甲骨文", "threshold": 3.0},
+      {"symbol": "AVGO", "name": "博通", "threshold": 3.0},
+      {"symbol": "TSM", "name": "台积电ADR", "threshold": 3.0},
+      {"symbol": "ASML", "name": "阿斯麦", "threshold": 3.0},
+      {"symbol": "ARM", "name": "Arm", "threshold": 3.0},
+      {"symbol": "SMCI", "name": "超微电脑", "threshold": 3.0},
+      {"symbol": "MRVL", "name": "迈威尔", "threshold": 3.0},
+      {"symbol": "ALAB", "name": "Astera Labs", "threshold": 3.0}
+    ],
+    "korea": [
+      {"symbol": "^KS11", "name": "KOSPI", "threshold": 1.0},
+      {"symbol": "005930.KS", "name": "三星电子", "threshold": 2.0},
+      {"symbol": "000660.KS", "name": "SK海力士", "threshold": 2.0}
+    ],
+    "macro": [
+      {"symbol": "^VIX", "name": "VIX", "threshold": 8.0},
+      {"symbol": "DX-Y.NYB", "name": "美元指数", "threshold": 0.5},
+      {"symbol": "^TNX", "name": "美国10年期国债收益率", "threshold": 8.0, "change_unit": "bp"},
+      {"symbol": "GC=F", "name": "黄金", "threshold": 2.0},
+      {"symbol": "CL=F", "name": "WTI原油", "threshold": 3.0},
+      {"symbol": "HG=F", "name": "铜", "threshold": 2.0}
+    ]
+  },
+  "scoring": {
+    "weights": {"sox": 0.20, "nasdaq": 0.10, "sp500": 0.05, "ai_basket": 0.20, "hynix": 0.10, "samsung": 0.10, "kospi": 0.05, "vix": 0.10, "us10y": 0.05, "dxy": 0.05},
+    "thresholds": {"sox": 1.5, "nasdaq": 1.0, "sp500": 1.0, "ai_basket": 3.0, "hynix": 2.0, "samsung": 2.0, "kospi": 1.0, "vix": 8.0, "us10y": 8.0, "dxy": 0.5},
+    "inverse": ["vix", "us10y", "dxy"]
+  },
+  "sector_keywords": {
+    "存储/HBM": ["MU", "000660.KS", "005930.KS"],
+    "半导体设备材料": ["^SOX", "ASML", "TSM", "INTC"],
+    "服务器与算力": ["NVDA", "AMD", "SMCI", "ORCL", "MSFT", "AMZN"],
+    "CPO/光模块": ["NVDA", "AVGO", "MRVL", "ALAB"],
+    "PCB/铜连接": ["NVDA", "AVGO", "HG=F"],
+    "液冷": ["NVDA", "SMCI", "MSFT", "AMZN"],
+    "机器人": ["NVDA", "GOOGL", "AAPL", "META"]
+  },
+  "news_feeds": [
+    {"name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/releases.xml"},
+    {"name": "Google Blog", "url": "https://blog.google/rss/"},
+    {"name": "Microsoft Blog", "url": "https://blogs.microsoft.com/feed/"},
+    {"name": "Meta AI", "url": "https://ai.meta.com/blog/rss/"},
+    {"name": "Google News AI芯片", "url": "https://news.google.com/rss/search?q=(AI+OR+NVIDIA+OR+semiconductor)+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News 韩国存储", "url": "https://news.google.com/rss/search?q=(Samsung+OR+SK+Hynix+OR+HBM)+semiconductor+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google News AI公司", "url": "https://news.google.com/rss/search?q=(OpenAI+OR+Anthropic+OR+DeepMind+OR+xAI)+when:1d&hl=en-US&gl=US&ceid=US:en"}
+  ]
+}
