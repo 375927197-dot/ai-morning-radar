@@ -20,7 +20,9 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.6-luna' }}
-      WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+      QQ_EMAIL_ADDRESS: ${{ secrets.QQ_EMAIL_ADDRESS }}
+      QQ_EMAIL_AUTH_CODE: ${{ secrets.QQ_EMAIL_AUTH_CODE }}
+      EMAIL_TO: ${{ vars.EMAIL_TO }}
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
@@ -51,6 +53,6 @@ jobs:
           git add reports/
           git commit -m "report: update AI morning radar"
           git push
-      - name: 失败时通知企业微信
+      - name: 失败时发送邮件
         if: failure()
         run: python -m ai_morning_radar notify-failure "GitHub Actions 运行失败：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

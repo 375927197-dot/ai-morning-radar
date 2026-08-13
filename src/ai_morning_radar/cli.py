@@ -3,8 +3,8 @@ from __future__ import annotations
 import argparse
 import sys
 
+from .email_sender import notify_failure
 from .pipeline import RunOptions, run
-from .wecom import notify_failure
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -25,7 +25,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if args.command == "notify-failure":
             sent = notify_failure(args.message)
-            print("失败通知已发送" if sent else "未配置企业微信Webhook，无法发送失败通知")
+            print("失败通知已发送" if sent else "未配置QQ邮箱，无法发送失败通知")
             return 0
         report, _ = run(RunOptions(
             fixture=args.fixture, dry_run=args.dry_run, scheduled=args.scheduled, config_path=args.config
@@ -36,4 +36,3 @@ def main(argv: list[str] | None = None) -> int:
     except Exception as exc:
         print(f"运行失败：{type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
-

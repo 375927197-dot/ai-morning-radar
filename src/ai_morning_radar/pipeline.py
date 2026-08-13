@@ -13,10 +13,10 @@ from .collectors.calendar import collect_macro_calendar
 from .collectors.market import collect_market
 from .collectors.news import collect_news
 from .config import all_instruments, load_config, project_root
+from .email_sender import send_report
 from .models import MacroEvent, MarketSnapshot, MorningReport, NewsItem
 from .reporting import write_report
 from .scoring import calculate_sentiment
-from .wecom import send_report
 
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
@@ -125,4 +125,3 @@ def run(options: RunOptions) -> tuple[MorningReport | None, dict[str, Path]]:
             paths = write_report(report, output_root)
     print(f"报告已生成：{paths['html']}")
     return report, paths
-
