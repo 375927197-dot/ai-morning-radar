@@ -3,8 +3,9 @@ name: AI早盘雷达
 on:
   workflow_dispatch:
   schedule:
-    # 00:32 UTC = 北京时间 08:32；中国不实行夏令时。
-    - cron: "32 0 * * 1-5"
+    # 22:30 UTC = 次日北京时间 06:30；提前唤醒以吸收 GitHub 调度延迟。
+    # UTC 周日至周四对应北京时间周一至周五。
+    - cron: "30 22 * * 0-4"
 
 permissions:
   contents: write
@@ -16,7 +17,7 @@ concurrency:
 jobs:
   report:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 150
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.6-luna' }}

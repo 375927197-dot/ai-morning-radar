@@ -54,13 +54,14 @@ def _clock(day: date, hhmm: str) -> datetime:
     return datetime(day.year, day.month, day.day, hour, minute, tzinfo=SHANGHAI)
 
 
-def _wait_for_korea(config: dict[str, Any], now: datetime | None = None) -> None:
+def _wait_until(
+    config: dict[str, Any], key: str, action: str, now: datetime | None = None,
+) -> None:
     now = now or datetime.now(SHANGHAI)
-    capture = _clock(now.date(), config["report"]["korea_capture"])
-    late = _clock(now.date(), config["report"]["late_start"])
-    if now < capture and now < late:
-        seconds = max(0, (capture - now).total_seconds())
-        print(f"等待至北京时间 {config['report']['korea_capture']} 补采韩国早盘（约{seconds/60:.1f}分钟）", flush=True)
+    target = _clock(now.date(), config["report"][key])
+    if now < target:
+        seconds = max(0, (target - now).total_seconds())
+        print(f"等待至北京时间 {config['report'][key]} {action}（约{seconds/60:.1f}分钟）", flush=True)
         time.sleep(seconds)
 
 
@@ -100,12 +101,12 @@ def run(options: RunOptions) -> tuple[MorningReport | None, dict[str, Path]]:
         market, news, events = _load_fixture()
         force_fallback = True
     else:
+        if options.scheduled:
+            _wait_until(config, "korea_capture", "采集盘前数据")
         market = collect_market(config, {"indices", "us_ai", "macro"})
         news, news_warnings = collect_news(config)
         events, event_warnings = collect_macro_calendar()
         warnings.extend(news_warnings + event_warnings)
-        if options.scheduled:
-            _wait_for_korea(config)
         market.extend(collect_market(config, {"korea"}))
         current = datetime.now(SHANGHAI)
         force_fallback = options.scheduled and current >= _clock(current.date(), config["report"]["ai_deadline"])
@@ -119,6 +120,8 @@ def run(options: RunOptions) -> tuple[MorningReport | None, dict[str, Path]]:
     paths = write_report(report, output_root)
 
     if not options.dry_run and not options.fixture:
+        if options.scheduled:
+            _wait_until(config, "send_time", "发送晨报")
         push_warnings = send_report(report, paths["html"], config)
         if push_warnings:
             report.warnings.extend(push_warnings)

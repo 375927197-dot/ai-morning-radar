@@ -3,12 +3,14 @@ from __future__ import annotations
 import tempfile
 import unittest
 import json
+from datetime import date, datetime
 from pathlib import Path
+from unittest.mock import patch
+from zoneinfo import ZoneInfo
 
 from ai_morning_radar.config import load_config
-from datetime import date
 
-from ai_morning_radar.pipeline import RunOptions, is_china_trading_day, run
+from ai_morning_radar.pipeline import RunOptions, _wait_until, is_china_trading_day, run
 
 
 class PipelineTests(unittest.TestCase):
@@ -28,6 +30,20 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(report.analysis_mode, "规则模板")
             self.assertTrue(paths["html"].exists())
             self.assertTrue(paths["json"].exists())
+
+    @patch("ai_morning_radar.pipeline.time.sleep")
+    def test_scheduled_waits_until_capture_time(self, sleep) -> None:
+        config = load_config()
+        now = datetime(2026, 8, 20, 8, 0, tzinfo=ZoneInfo("Asia/Shanghai"))
+        _wait_until(config, "korea_capture", "采集盘前数据", now)
+        sleep.assert_called_once_with(20 * 60)
+
+    @patch("ai_morning_radar.pipeline.time.sleep")
+    def test_late_schedule_skips_wait(self, sleep) -> None:
+        config = load_config()
+        now = datetime(2026, 8, 20, 8, 31, tzinfo=ZoneInfo("Asia/Shanghai"))
+        _wait_until(config, "send_time", "发送晨报", now)
+        sleep.assert_not_called()
 
 
 if __name__ == "__main__":
