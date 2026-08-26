@@ -1,0 +1,1183 @@
+{
+  "report_date": "2026-08-26",
+  "generated_at": "2026-08-26T08:20:10+08:00",
+  "title": "AI早盘雷达｜2026-08-26",
+  "sentiment_score": 2.43,
+  "sentiment_label": "偏多",
+  "score_components": [
+    {
+      "key": "sox",
+      "value": 1.4432785749495247,
+      "normalized": 0.9621857166330164,
+      "weight": 0.2,
+      "evidence_ids": [
+        "MKT-^SOX"
+      ]
+    },
+    {
+      "key": "nasdaq",
+      "value": 0.6586148084436694,
+      "normalized": 0.6586148084436694,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-^IXIC"
+      ]
+    },
+    {
+      "key": "sp500",
+      "value": 0.3190953749482306,
+      "normalized": 0.3190953749482306,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-^GSPC"
+      ]
+    },
+    {
+      "key": "ai_basket",
+      "value": 1.8900897859870454,
+      "normalized": 0.6300299286623484,
+      "weight": 0.2,
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AMD",
+        "MKT-INTC",
+        "MKT-MU",
+        "MKT-AAPL",
+        "MKT-GOOGL",
+        "MKT-MSFT",
+        "MKT-META",
+        "MKT-AMZN",
+        "MKT-ORCL",
+        "MKT-AVGO",
+        "MKT-TSM",
+        "MKT-ASML",
+        "MKT-ARM",
+        "MKT-SMCI",
+        "MKT-MRVL",
+        "MKT-ALAB"
+      ]
+    },
+    {
+      "key": "hynix",
+      "value": 0.47990401919615344,
+      "normalized": 0.23995200959807672,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-000660.KS"
+      ]
+    },
+    {
+      "key": "samsung",
+      "value": -0.2921129503407949,
+      "normalized": -0.14605647517039744,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-005930.KS"
+      ]
+    },
+    {
+      "key": "kospi",
+      "value": -0.10252386271785152,
+      "normalized": -0.10252386271785152,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-^KS11"
+      ]
+    },
+    {
+      "key": "vix",
+      "value": -2.5236628553790497,
+      "normalized": 0.3154578569223812,
+      "weight": 0.1,
+      "evidence_ids": [
+        "MKT-^VIX"
+      ]
+    },
+    {
+      "key": "us10y",
+      "value": -6.500005722045898,
+      "normalized": 0.8125007152557373,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-^TNX"
+      ]
+    },
+    {
+      "key": "dxy",
+      "value": -0.08888629951862015,
+      "normalized": 0.1777725990372403,
+      "weight": 0.05,
+      "evidence_ids": [
+        "MKT-DX-Y.NYB"
+      ]
+    }
+  ],
+  "market": [
+    {
+      "symbol": "^IXIC",
+      "name": "纳斯达克综合",
+      "category": "indices",
+      "price": 26151.298828125,
+      "change_pct": 0.6586148084436694,
+      "previous_close": 25980.189453125,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        26588.490234375,
+        26803.029296875,
+        26729.16015625,
+        26644.91015625,
+        26289.7109375,
+        26331.08984375,
+        26067.169921875,
+        26180.4609375,
+        25980.189453125,
+        26151.298828125
+      ],
+      "evidence_id": "MKT-^IXIC"
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "标普500",
+      "category": "indices",
+      "price": 7677.27978515625,
+      "change_pct": 0.3190953749482306,
+      "previous_close": 7652.85986328125,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        7748.5,
+        7798.990234375,
+        7785.759765625,
+        7745.06005859375,
+        7691.759765625,
+        7707.97998046875,
+        7641.16015625,
+        7674.3701171875,
+        7652.85986328125,
+        7677.27978515625
+      ],
+      "evidence_id": "MKT-^GSPC"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "道琼斯",
+      "category": "indices",
+      "price": 53577.3984375,
+      "change_pct": 0.29997529030239,
+      "previous_close": 53417.16015625,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        53770.26953125,
+        53839.98828125,
+        53732.41015625,
+        53459.78125,
+        53343.3984375,
+        53463.05078125,
+        52759.2109375,
+        53277.01171875,
+        53417.16015625,
+        53577.3984375
+      ],
+      "evidence_id": "MKT-^DJI"
+    },
+    {
+      "symbol": "^SOX",
+      "name": "费城半导体",
+      "category": "indices",
+      "price": 11588.0380859375,
+      "change_pct": 1.4432785749495247,
+      "previous_close": 11423.169921875,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        12399.3798828125,
+        12456.0,
+        12417.0498046875,
+        12621.0,
+        11992.4599609375,
+        11738.23046875,
+        11800.01953125,
+        11740.3701171875,
+        11423.169921875,
+        11588.0380859375
+      ],
+      "evidence_id": "MKT-^SOX"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "category": "us_ai",
+      "price": 213.0500030517578,
+      "change_pct": 2.192060350092895,
+      "previous_close": 208.47999572753906,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        224.08999633789062,
+        225.3000030517578,
+        225.16000366210938,
+        225.00999450683594,
+        219.74000549316406,
+        217.55999755859375,
+        216.85000610351562,
+        214.72000122070312,
+        208.47999572753906,
+        213.0500030517578
+      ],
+      "evidence_id": "MKT-NVDA"
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "category": "us_ai",
+      "price": 479.17999267578125,
+      "change_pct": 4.910781100335249,
+      "previous_close": 456.75,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        482.92999267578125,
+        483.010009765625,
+        514.3900146484375,
+        506.0,
+        484.3900146484375,
+        466.4200134277344,
+        469.4599914550781,
+        473.25,
+        456.75,
+        479.17999267578125
+      ],
+      "evidence_id": "MKT-AMD"
+    },
+    {
+      "symbol": "INTC",
+      "name": "英特尔",
+      "category": "us_ai",
+      "price": 87.4800033569336,
+      "change_pct": 0.2521214936021421,
+      "previous_close": 87.26000213623047,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        100.94999694824219,
+        104.55999755859375,
+        102.5,
+        103.48999786376953,
+        96.69000244140625,
+        92.80000305175781,
+        92.12999725341797,
+        90.06999969482422,
+        87.26000213623047,
+        87.4800033569336
+      ],
+      "evidence_id": "MKT-INTC"
+    },
+    {
+      "symbol": "MU",
+      "name": "美光",
+      "category": "us_ai",
+      "price": 932.969970703125,
+      "change_pct": 2.47575082199325,
+      "previous_close": 910.4299926757812,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        911.2899780273438,
+        949.8300170898438,
+        971.6599731445312,
+        1011.75,
+        940.760009765625,
+        937.1099853515625,
+        974.3300170898438,
+        966.780029296875,
+        910.4299926757812,
+        932.969970703125
+      ],
+      "evidence_id": "MKT-MU"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "苹果",
+      "category": "us_ai",
+      "price": 309.8999938964844,
+      "change_pct": -0.14178077160482694,
+      "previous_close": 310.3399963378906,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        302.25,
+        305.260009765625,
+        305.92999267578125,
+        305.5899963378906,
+        310.0299987792969,
+        316.8299865722656,
+        311.29998779296875,
+        309.3500061035156,
+        310.3399963378906,
+        309.8999938964844
+      ],
+      "evidence_id": "MKT-AAPL"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "谷歌",
+      "category": "us_ai",
+      "price": 346.9599914550781,
+      "change_pct": -0.31603922060318146,
+      "previous_close": 348.05999755859375,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        343.5400085449219,
+        346.3599853515625,
+        345.8999938964844,
+        344.0,
+        344.20001220703125,
+        344.7200012207031,
+        340.6700134277344,
+        344.82000732421875,
+        348.05999755859375,
+        346.9599914550781
+      ],
+      "evidence_id": "MKT-GOOGL"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "微软",
+      "category": "us_ai",
+      "price": 491.7099914550781,
+      "change_pct": 0.9029147603226262,
+      "previous_close": 487.30999755859375,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        492.42999267578125,
+        496.8800048828125,
+        495.3999938964844,
+        480.3500061035156,
+        481.6300048828125,
+        484.30999755859375,
+        481.1499938964844,
+        483.239990234375,
+        487.30999755859375,
+        491.7099914550781
+      ],
+      "evidence_id": "MKT-MSFT"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "category": "us_ai",
+      "price": 570.0499877929688,
+      "change_pct": 1.9730900283262853,
+      "previous_close": 559.02001953125,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        578.8499755859375,
+        594.969970703125,
+        589.8499755859375,
+        568.969970703125,
+        543.6699829101562,
+        546.030029296875,
+        545.8300170898438,
+        549.9000244140625,
+        559.02001953125,
+        570.0499877929688
+      ],
+      "evidence_id": "MKT-META"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "亚马逊",
+      "category": "us_ai",
+      "price": 261.05999755859375,
+      "change_pct": -0.3853969311243932,
+      "previous_close": 262.07000732421875,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        267.2799987792969,
+        265.1300048828125,
+        262.6499938964844,
+        261.30999755859375,
+        259.45001220703125,
+        265.8399963378906,
+        260.1099853515625,
+        258.6300048828125,
+        262.07000732421875,
+        261.05999755859375
+      ],
+      "evidence_id": "MKT-AMZN"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "甲骨文",
+      "category": "us_ai",
+      "price": 144.75999450683594,
+      "change_pct": 1.6216199424932798,
+      "previous_close": 142.4499969482422,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        153.27999877929688,
+        156.22000122070312,
+        150.52000427246094,
+        146.64999389648438,
+        142.7899932861328,
+        143.80999755859375,
+        142.07000732421875,
+        146.47000122070312,
+        142.4499969482422,
+        144.75999450683594
+      ],
+      "evidence_id": "MKT-ORCL"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "博通",
+      "category": "us_ai",
+      "price": 356.739990234375,
+      "change_pct": -0.5630559360753851,
+      "previous_close": 358.760009765625,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        416.04998779296875,
+        417.82000732421875,
+        392.989990234375,
+        392.42999267578125,
+        380.0,
+        362.4800109863281,
+        364.0299987792969,
+        368.45001220703125,
+        358.760009765625,
+        356.739990234375
+      ],
+      "evidence_id": "MKT-AVGO"
+    },
+    {
+      "symbol": "TSM",
+      "name": "台积电ADR",
+      "category": "us_ai",
+      "price": 417.4100036621094,
+      "change_pct": 1.7775306329160578,
+      "previous_close": 410.1199951171875,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        429.1499938964844,
+        430.489990234375,
+        426.3500061035156,
+        430.9700012207031,
+        413.4100036621094,
+        412.0899963378906,
+        416.0,
+        418.95001220703125,
+        410.1199951171875,
+        417.4100036621094
+      ],
+      "evidence_id": "MKT-TSM"
+    },
+    {
+      "symbol": "ASML",
+      "name": "阿斯麦",
+      "category": "us_ai",
+      "price": 1744.1600341796875,
+      "change_pct": 0.23159357551256754,
+      "previous_close": 1740.1300048828125,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        1810.0699462890625,
+        1847.9000244140625,
+        1844.0799560546875,
+        1883.1199951171875,
+        1802.97998046875,
+        1751.72998046875,
+        1750.31005859375,
+        1763.760009765625,
+        1740.1300048828125,
+        1744.1600341796875
+      ],
+      "evidence_id": "MKT-ASML"
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm",
+      "category": "us_ai",
+      "price": 241.55999755859375,
+      "change_pct": 1.1642511070897532,
+      "previous_close": 238.77999877929688,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        271.8699951171875,
+        278.6499938964844,
+        279.44000244140625,
+        271.42999267578125,
+        253.32000732421875,
+        249.33999633789062,
+        250.72000122070312,
+        243.32000732421875,
+        238.77999877929688,
+        241.55999755859375
+      ],
+      "evidence_id": "MKT-ARM"
+    },
+    {
+      "symbol": "SMCI",
+      "name": "超微电脑",
+      "category": "us_ai",
+      "price": 38.459999084472656,
+      "change_pct": 9.354566638653905,
+      "previous_close": 35.16999816894531,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        37.61000061035156,
+        39.15999984741211,
+        39.84000015258789,
+        38.279998779296875,
+        37.40999984741211,
+        36.58000183105469,
+        36.5,
+        37.2400016784668,
+        35.16999816894531,
+        38.459999084472656
+      ],
+      "evidence_id": "MKT-SMCI"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "迈威尔",
+      "category": "us_ai",
+      "price": 240.3800048828125,
+      "change_pct": 4.836674918839723,
+      "previous_close": 229.2899932861328,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        217.0800018310547,
+        222.17999267578125,
+        222.02000427246094,
+        234.3300018310547,
+        216.0,
+        237.27000427246094,
+        251.00999450683594,
+        237.0399932861328,
+        229.2899932861328,
+        240.3800048828125
+      ],
+      "evidence_id": "MKT-MRVL"
+    },
+    {
+      "symbol": "ALAB",
+      "name": "Astera Labs",
+      "category": "us_ai",
+      "price": 282.6499938964844,
+      "change_pct": 1.8448438510098253,
+      "previous_close": 277.5299987792969,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        318.79998779296875,
+        322.7799987792969,
+        321.6099853515625,
+        320.1700134277344,
+        303.44000244140625,
+        289.0199890136719,
+        290.5199890136719,
+        284.9700012207031,
+        277.5299987792969,
+        282.6499938964844
+      ],
+      "evidence_id": "MKT-ALAB"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "VIX",
+      "category": "macro",
+      "price": 15.449999809265137,
+      "change_pct": -2.5236628553790497,
+      "previous_close": 15.850000381469727,
+      "as_of": "2026-08-25T00:00:00-05:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1160,
+      "change_bps": null,
+      "sparkline": [
+        14.550000190734863,
+        14.630000114440918,
+        14.25,
+        15.1899995803833,
+        15.84000015258789,
+        14.890000343322754,
+        16.010000228881836,
+        15.130000114440918,
+        15.850000381469727,
+        15.449999809265137
+      ],
+      "evidence_id": "MKT-^VIX"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "美元指数",
+      "category": "macro",
+      "price": 98.91200256347656,
+      "change_pct": -0.08888629951862015,
+      "previous_close": 99.0,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        99.66999816894531,
+        99.63999938964844,
+        99.6500015258789,
+        98.83000183105469,
+        98.9000015258789,
+        98.80000305175781,
+        99.0,
+        98.91200256347656
+      ],
+      "evidence_id": "MKT-DX-Y.NYB"
+    },
+    {
+      "symbol": "^TNX",
+      "name": "美国10年期国债收益率",
+      "category": "macro",
+      "price": 4.638999938964844,
+      "change_pct": -1.3818039386303327,
+      "previous_close": 4.703999996185303,
+      "as_of": "2026-08-25T00:00:00-05:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1160,
+      "change_bps": -6.500005722045898,
+      "sparkline": [
+        4.682000160217285,
+        4.640999794006348,
+        4.696000099182129,
+        4.723999977111816,
+        4.705999851226807,
+        4.6529998779296875,
+        4.696000099182129,
+        4.73799991607666,
+        4.703999996185303,
+        4.638999938964844
+      ],
+      "evidence_id": "MKT-^TNX"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "黄金",
+      "category": "macro",
+      "price": 4710.89990234375,
+      "change_pct": 1.5105175962437434,
+      "previous_close": 4640.7998046875,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        4380.39990234375,
+        4417.7998046875,
+        4366.0,
+        4489.39990234375,
+        4516.2998046875,
+        4624.10009765625,
+        4640.7998046875,
+        4710.89990234375
+      ],
+      "evidence_id": "MKT-GC=F"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "WTI原油",
+      "category": "macro",
+      "price": 80.87999725341797,
+      "change_pct": -4.8582575920820155,
+      "previous_close": 85.01000213623047,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        82.4000015258789,
+        84.5,
+        84.94000244140625,
+        85.83000183105469,
+        87.83000183105469,
+        87.05999755859375,
+        85.01000213623047,
+        80.87999725341797
+      ],
+      "evidence_id": "MKT-CL=F"
+    },
+    {
+      "symbol": "HG=F",
+      "name": "铜",
+      "category": "macro",
+      "price": 6.70550012588501,
+      "change_pct": 1.6138831511226304,
+      "previous_close": 6.598999977111816,
+      "as_of": "2026-08-25T00:00:00-04:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "最近两个交易日",
+      "status": "ok",
+      "stale_minutes": 1220,
+      "change_bps": null,
+      "sparkline": [
+        6.5995001792907715,
+        6.604000091552734,
+        6.482500076293945,
+        6.487500190734863,
+        6.460000038146973,
+        6.579500198364258,
+        6.598999977111816,
+        6.70550012588501
+      ],
+      "evidence_id": "MKT-HG=F"
+    },
+    {
+      "symbol": "^KS11",
+      "name": "KOSPI",
+      "category": "korea",
+      "price": 6713.6298828125,
+      "change_pct": -0.10252386271785152,
+      "previous_close": 6720.52001953125,
+      "as_of": "2026-08-25T14:55:00+09:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "韩国当日5分钟（定时任务08:50截取）",
+      "status": "ok",
+      "stale_minutes": 1105,
+      "change_bps": null,
+      "sparkline": [
+        6656.31982421875,
+        6648.02978515625,
+        6652.8701171875,
+        6660.64013671875,
+        6670.47998046875,
+        6661.0498046875,
+        6663.93017578125,
+        6676.27978515625,
+        6686.75,
+        6669.2099609375,
+        6653.35009765625,
+        6667.02001953125,
+        6682.75,
+        6675.10986328125,
+        6684.66015625,
+        6695.27978515625,
+        6715.56982421875,
+        6725.4501953125,
+        6736.7998046875,
+        6739.22021484375,
+        6711.91015625,
+        6717.31005859375,
+        6720.52001953125,
+        6713.6298828125
+      ],
+      "evidence_id": "MKT-^KS11"
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "三星电子",
+      "category": "korea",
+      "price": 256000.0,
+      "change_pct": -0.2921129503407949,
+      "previous_close": 256750.0,
+      "as_of": "2026-08-25T14:55:00+09:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "韩国当日5分钟（定时任务08:50截取）",
+      "status": "ok",
+      "stale_minutes": 1105,
+      "change_bps": null,
+      "sparkline": [
+        255000.0,
+        254750.0,
+        254000.0,
+        254250.0,
+        254500.0,
+        254000.0,
+        254500.0,
+        254500.0,
+        255500.0,
+        254000.0,
+        253750.0,
+        254000.0,
+        255500.0,
+        254500.0,
+        254500.0,
+        255500.0,
+        256000.0,
+        256750.0,
+        257750.0,
+        257750.0,
+        256500.0,
+        256500.0,
+        256750.0,
+        256000.0
+      ],
+      "evidence_id": "MKT-005930.KS"
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK海力士",
+      "category": "korea",
+      "price": 1675000.0,
+      "change_pct": 0.47990401919615344,
+      "previous_close": 1667000.0,
+      "as_of": "2026-08-26T09:00:00+09:00",
+      "source": "Yahoo Finance / yfinance",
+      "session": "韩国当日5分钟（定时任务08:50截取）",
+      "status": "ok",
+      "stale_minutes": 20,
+      "change_bps": null,
+      "sparkline": [
+        1675000.0
+      ],
+      "evidence_id": "MKT-000660.KS"
+    }
+  ],
+  "news": [
+    {
+      "title": "Cramer says Nvidia has become 'all-important' to the AI trade. Here's what to watch beyond the numbers - CNBC",
+      "source": "CNBC",
+      "published_at": "2026-08-25T22:55:34+00:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iY2luWmgzY0d3bldwd1dTZEVyNFE0S3BocnFRT1BYeFYyNVY4QTVCdXpxUHNxWEp6czRvM2VGWGRGQ0tycURqZ3MyYmR4U1hMVFFBdDdRMzVxU3hDQ3phSFhnWFZTTDM3aGZ1V0NnZlR0VklwWnJHUjFRWXIxZw?oc=5",
+      "summary": "Cramer says Nvidia has become 'all-important' to the AI trade. Here's what to watch beyond the numbers    CNBC",
+      "evidence_id": "NEWS-001"
+    },
+    {
+      "title": "Nvidia Stock Bulls Get Punished in the Run-Up to Earnings - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-08-25T22:17:58+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVBNRWxrS1JqeWFwS3pCcnNmNUxic1dxZGhtS1ZsZnYxSkpqdWtpbDk4SmpSaU5zZGtEMXpLNFhSbExRWFhQb3hEV0FyTTRKXzhhd3lNRTUyWXZicEY1c1BuMmNvLXB5VlNnUVVHY3FyMjV2UTFYZjRoUng3a3JLRDBremxhaG9qTWNhNFBJTUQ3SG5QdElCdGxaa0ZoN2RPM3BXWnRzNE9JeEVmUE5Haw?oc=5",
+      "summary": "Nvidia Stock Bulls Get Punished in the Run-Up to Earnings    Bloomberg.com",
+      "evidence_id": "NEWS-002"
+    },
+    {
+      "title": "OpenAI Data Center Executive Chris Malone Departs the AI Startup - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-08-25T22:04:51+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLTlGekdBY0h3c1Q3SE9lRzFhUUpFX2N6WEl5dFFQZVUyRXRrdWpSZm9ZbDJuWmh1NUt0TU41c0dVNlVlZkdzWWZfSU9OZ3pLT2lqN21FNjJCdWtRWkxGMjF4c0laMzBTZUlMdXBLbm9seGFNemlDSDd6dnM5T1pSMldPa19SNE1uamsyYm5ULVZPc3BDZ1BoWnFSZk04b21DWkpCVjYtWHMxVlVSc0FDMU9iUC0wZw?oc=5",
+      "summary": "OpenAI Data Center Executive Chris Malone Departs the AI Startup    Bloomberg.com",
+      "evidence_id": "NEWS-003"
+    },
+    {
+      "title": "OpenAI data center chief Chris Malone is out, the latest in a string of executive exits - CNBC",
+      "source": "CNBC",
+      "published_at": "2026-08-25T21:23:28+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaHN6cUtXZ0UyUlhaQlBNUXVpc2F4YU9ETnhHeTZzWnlLN3FTR0ZMWE42d3FkQmZKNUJHT183ekcya2pYRGNOSGIwMkVwa2xuZkhueW01ck4wb1E4RFdKVkdaN3d0SzBQMy1lclAxNng0eDZiX0tmdGpnRUF2ZDRDSTMtQkdjQW96N2M4WlBEZmRKQnE5TGhHOVJDNDVqSEU3aDVmbzVOdUnSAa4BQVVfeXFMTWVLVW80ck9uenpyZmdaTF9wY3BxLVNxMHZfblBsZXpBVFpfQnQxcjU1cUdwLTJDUGlQajR0QXV5MWNWNTUwSllMMzktZkl5NEt1ckNjYUdKNEZFbDYzaWxJQ3BQNUJmSjhRY0c2V1FISXV4UVMxXzhjVm1FZ1didndMWVFsU3VPcTIxQWRMTVhGR3Vyc1pVbUduaW00UGx6dTN4TTB4Um4xQzhFNnZn?oc=5",
+      "summary": "OpenAI data center chief Chris Malone is out, the latest in a string of executive exits    CNBC",
+      "evidence_id": "NEWS-004"
+    },
+    {
+      "title": "OpenAI’s Data-Center Chief Has Reportedly Left — Executive Exodus Grows Ahead Of Planned IPO - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-08-25T21:02:57+00:00",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUVFuNFJ0TGhFVWlQZGpfUFBDWHFpb1l6ajhVU29ybjlBcUc4LWVyNG1kMmZta0xTZ1ZXVnc4eEhOd0tSNlpkbXplUE14NE5FTjdLSWl3VWZicmxzaV9USWc1VEZWMm1aREhXZmNkTmJYckJmcVFERlh2Y01CU1FQaWliNHBmRmM4TUNxTTlMZVBXbG1zWGVIaVVXZWhGZklq?oc=5",
+      "summary": "OpenAI’s Data-Center Chief Has Reportedly Left — Executive Exodus Grows Ahead Of Planned IPO    Yahoo Finance",
+      "evidence_id": "NEWS-005"
+    },
+    {
+      "title": "Wall Street ends higher as tech rebounds before Nvidia results - Reuters",
+      "source": "Reuters",
+      "published_at": "2026-08-25T20:29:41+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmhxOE10Q2J5RzR6U1lxZjRCX0FUYmdxdkl5SE5fT1N2SG5RSmMxb0xPekZ2eDNjbVhyVE54N0FIOTByZEdrMFUtSmp0U3A0R2RLVldRczJ2aW5PU2QzUzZ6Y0FYUThQU01jdEJOdzdtbndvdThwXzhUbDAzQ2lHeVIwbHE4dkZITlhxZ0JLLWVEVHdzZmcxYTdub3dWRjh1QnRNUzRhU0V3bnJZV2c?oc=5",
+      "summary": "Wall Street ends higher as tech rebounds before Nvidia results    Reuters",
+      "evidence_id": "NEWS-006"
+    },
+    {
+      "title": "Google expands Gemini Enterprise AI platform for law firms, lawyers - Reuters",
+      "source": "Reuters",
+      "published_at": "2026-08-25T20:13:49+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZk81aGh3d2lJX0FucWpwclltdnRJd3RqNVpTWnhMeGNBU3FUeWRIby1lcEpQQ3NOT1VaWjRlU19vT1lmVzdMTEpjbm16eTh4MTdvbGRtN1ZQb243eVZ2aF9Sd19PMEtzd2ZpbGV2R0p5SzZRTGJLNkE4TGNZUmtxVnlvVGx1NlVYQkIwMmEwRnV6RGxEQ1BvTGIzNGE?oc=5",
+      "summary": "Google expands Gemini Enterprise AI platform for law firms, lawyers    Reuters",
+      "evidence_id": "NEWS-007"
+    },
+    {
+      "title": "Nvidia's Q2 earnings to test resurgent AI trade - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-08-25T20:08:05+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSFU5TUdKYzd1SDNVT1dpeGFLbGJXUUZiTF9VdEczbkVQM0hWazZVVUFkYkExZFJRc1hzazM4aUpZQkdFT21rd3Bjc000cHdaMWY1dHhrVms5Q2VIOWJ2MnB6cVk5VTdrMGpGZDZWa0FIOC1KVmlEWkIyUWIySnJLQ3FrOXd2dTRQaFk5TnJyUl9IYms1eTJPaF9SRDBjYldpamg3WmFwaGZRVnR0MlpB?oc=5",
+      "summary": "Nvidia's Q2 earnings to test resurgent AI trade    Yahoo Finance",
+      "evidence_id": "NEWS-008"
+    },
+    {
+      "title": "Pope Leo XIV on AI's new 'form of domination': it risks becoming a tool of 'economic colonialism' - Fortune",
+      "source": "Fortune",
+      "published_at": "2026-08-25T20:08:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMnEzd1p4TjFMQV82U1VSYTN2aXAwOHVVdG5BOVRwdjRReE1YSVJjSnl1NUd6SDhJT0RES05OektGNnFBSnlCMEltVGNlMWVmVm9nUEdhYmZiT19XY0xrbEprRGlXcTVZQ2JoY3M3aTlJZTM0Y25VUzZUYkVEWFR0ZjZXbWNpd3BwTDkyaDJB?oc=5",
+      "summary": "Pope Leo XIV on AI's new 'form of domination': it risks becoming a tool of 'economic colonialism'    Fortune",
+      "evidence_id": "NEWS-009"
+    },
+    {
+      "title": "AI Cloud Provider Lambda in Talks for $3 Billion Pre-IPO Round - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-08-25T20:07:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdnFGMmJzb3hpNVRqTGljVGpzRmVSX3NKUEp0eHFrMlduSnpzSTRmVkFaeGxKcEh6UGhrQ1ZTMXhubTZBUXpiVUhENnJZUThIWWE3a0FtUGViMEhZWDlWYXZRQTVnNnZCNGJEWm02MzZiaFJ3T1d5bmZ4RUhMQlJZQVBCblQ2ZXhRSFJIZjdDczhTeTNIb25QaHg2RW1Oc1BxVElzcFJlUWd0ZlhVNzJvS3lB?oc=5",
+      "summary": "AI Cloud Provider Lambda in Talks for $3 Billion Pre-IPO Round    Bloomberg.com",
+      "evidence_id": "NEWS-010"
+    },
+    {
+      "title": "History Says Nvidia Is Likely To Fall on Wednesday. Here's Why That's Not Bad News - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-08-25T20:05:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOUw2Sktlb0NtM2NIRUdBRHB3SS0tS3haYzJCS2lrMWxBV2xzSE0zX2h0Z0NWN2l4MThVUVRObkhJTzlLbnJHUGdFOFM2WFAta3pOR25HYjFWbWJrSmlUakRwam9ORnlsaE80WlZvRllMbDJqTnFxazJacTg2RHVPZWZxMkp1NXM3S1ZicXhsSFNyOFFnUXdoMFBJWVM?oc=5",
+      "summary": "History Says Nvidia Is Likely To Fall on Wednesday. Here's Why That's Not Bad News    Yahoo Finance",
+      "evidence_id": "NEWS-011"
+    },
+    {
+      "title": "TSMC Jumps Before Nvidia Tests Its Capacity Bet - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-08-25T19:58:25+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2N6VlJWbllCYVhsSEV2ZmhRUFRwYmZJVmpPT2R4LTdlZk4wM3k4M0dPOG1yOWI5dUFhaHRELXkxLUZTNGg5ZzZzN2E5emxCeHpRaERWV0RJZWh2M3lwSGhkNVc2N3UweWdqTXRUM1dDelFEMUZxdm93OWZ6a3hDMG5LUTU5MWMwcU9uSm5wOVQyNWh6MHEzQw?oc=5",
+      "summary": "TSMC Jumps Before Nvidia Tests Its Capacity Bet    Yahoo Finance",
+      "evidence_id": "NEWS-012"
+    },
+    {
+      "title": "OpenAI Data Center Executive Chris Malone Departs the AI Startup - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-08-25T19:43:42+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMjV5VGt3UVNHRkFNV05tWmZuTmVOSnRiN0FDbWpnME94azFZQjktdC03QjBYMUJpeU16cmJMZm1aSkhrbDRSZEF0NWE2ZXBlTm1hOEpEZ2lMYTctVXowam52aEFWeGp0SEtvelpOM3hYLXhHRVJiYVFoWUgzamZGU1FhalR5ZGVCb1hqWjhRdGM2ZjQ0anhNV2xOM3FzcWc?oc=5",
+      "summary": "OpenAI Data Center Executive Chris Malone Departs the AI Startup    Yahoo Finance",
+      "evidence_id": "NEWS-013"
+    },
+    {
+      "title": "Nvidia Jumps 2.4% as $352 Target Raises Tomorrow's Stakes - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-08-25T19:28:12+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVVI1RnQ3VUlyU28zeEhtS2xIMllKOGlHUWRwaFY5WGxaN25TQXF2MDRIZTRXanN0LVRxNm1WRVpYZldMRk5URlNjXzFUMHFfeUNBTUI1dzVoNjE5eHRubVBjaklXdEE3UUk4QnNoeGJwU0oteHFab2h0c3UxQmxYMW94aUh0VGFtZmFrZlFB?oc=5",
+      "summary": "Nvidia Jumps 2.4% as $352 Target Raises Tomorrow's Stakes    Yahoo Finance",
+      "evidence_id": "NEWS-014"
+    },
+    {
+      "title": "Watch Nvidia Earnings, Apple’s AI Macs and OpenAI’s Chip Push | Bloomberg Tech 8/25/2026 - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-08-25T19:11:08+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdkJnOUJEcnE5MlZuVWdTTHNzMUViYl9KcmNFUlRNUExlWFY5VmxSM1BkYkR3dWpJcldOaGgxVlctNlRybldhTTFFQlphdFJIeFNVc294cUxoT081dXNRTENiS0d0ZE56TWJjVkxsNXFwcTBZNGk5QlM5U2FPVEkzQ3hYMDNjdw?oc=5",
+      "summary": "Watch Nvidia Earnings, Apple’s AI Macs and OpenAI’s Chip Push | Bloomberg Tech 8/25/2026    Bloomberg.com",
+      "evidence_id": "NEWS-015"
+    }
+  ],
+  "macro_events": [
+    {
+      "title": "查看未来48小时美联储会议、讲话与统计发布",
+      "event_at": "2026-08-26T00:20:10.032384+00:00",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/calendar.htm",
+      "importance": "中",
+      "evidence_id": "CAL-FED-01"
+    }
+  ],
+  "sector_impacts": [
+    {
+      "sector": "存储/HBM",
+      "direction": "利好",
+      "strength": 2,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：美光、SK海力士、三星电子综合变动约+0.89%",
+      "evidence_ids": [
+        "MKT-MU",
+        "MKT-000660.KS",
+        "MKT-005930.KS"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "半导体设备材料",
+      "direction": "利好",
+      "strength": 2,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：费城半导体、阿斯麦、台积电ADR、英特尔综合变动约+0.93%",
+      "evidence_ids": [
+        "MKT-^SOX",
+        "MKT-ASML",
+        "MKT-TSM",
+        "MKT-INTC"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "服务器与算力",
+      "direction": "利好",
+      "strength": 4,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、AMD、超微电脑、甲骨文综合变动约+3.10%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AMD",
+        "MKT-SMCI",
+        "MKT-ORCL",
+        "MKT-MSFT",
+        "MKT-AMZN"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "CPO/光模块",
+      "direction": "利好",
+      "strength": 3,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、博通、迈威尔、Astera Labs综合变动约+2.08%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AVGO",
+        "MKT-MRVL",
+        "MKT-ALAB"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "PCB/铜连接",
+      "direction": "利好",
+      "strength": 2,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、博通、铜综合变动约+1.08%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-AVGO",
+        "MKT-HG=F"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "液冷",
+      "direction": "利好",
+      "strength": 4,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、超微电脑、微软、亚马逊综合变动约+3.02%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-SMCI",
+        "MKT-MSFT",
+        "MKT-AMZN"
+      ],
+      "kind": "推断"
+    },
+    {
+      "sector": "机器人",
+      "direction": "利好",
+      "strength": 2,
+      "horizon": "当日集合竞价至早盘",
+      "reason": "规则映射：英伟达、谷歌、苹果、Meta综合变动约+0.93%",
+      "evidence_ids": [
+        "MKT-NVDA",
+        "MKT-GOOGL",
+        "MKT-AAPL",
+        "MKT-META"
+      ],
+      "kind": "推断"
+    }
+  ],
+  "auction_points": [
+    "09:15先观察存储、算力和光模块方向竞价强弱是否与外盘信号一致。",
+    "若高开但量能与板块联动不足，谨防外盘信息已被提前交易。",
+    "关注美元、美债收益率和VIX是否共同指向风险偏好变化。"
+  ],
+  "one_line_summary": "外盘AI科技情绪偏多（+2.43/5），重点异动：超微电脑+9.35%、AMD+4.91%、WTI原油-4.86%。",
+  "analysis_mode": "规则模板",
+  "warnings": [
+    "新闻源 Meta AI 不可用：HTTPError",
+    "BLS日历不可用：HTTPError",
+    "未配置OPENAI_API_KEY，已使用规则模板"
+  ],
+  "disclaimer": "仅用于盘前信息整理和风险观察，不构成投资建议。免费行情可能延迟或缺失。"
+}
