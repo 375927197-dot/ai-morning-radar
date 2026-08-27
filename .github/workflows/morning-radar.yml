@@ -2,10 +2,6 @@ name: AI早盘雷达
 
 on:
   workflow_dispatch:
-  schedule:
-    # 22:30 UTC = 次日北京时间 06:30；提前唤醒以吸收 GitHub 调度延迟。
-    # UTC 周日至周四对应北京时间周一至周五。
-    - cron: "30 22 * * 0-4"
 
 permissions:
   contents: write
